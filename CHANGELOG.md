@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-13
+
 ### Added
 
 - The Livebox device: internet connected, link type, public IP, uptime,
@@ -24,3 +26,6 @@ the notes of the version's GitHub Release.
 - Dashboard widgets "Livebox" (state, link, uptime, counters, Wi-Fi buttons)
   and "Livebox devices" (the devices online).
 - "Test the connection" and "Reboot the Livebox" buttons.
+
+[Unreleased]: https://github.com/LM1LC3N7/gladys-livebox/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/LM1LC3N7/gladys-livebox/releases/tag/v0.1.1

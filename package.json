@@ -1,6 +1,6 @@
 {
   "name": "gladys-livebox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Orange Livebox for Gladys Assistant: Wi-Fi presence of your devices, internet link state and rates, Wi-Fi and guest Wi-Fi switches, missed calls, scene triggers and dashboard widgets. Local, no cloud.",
   "type": "module",
