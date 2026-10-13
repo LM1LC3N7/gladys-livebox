@@ -15,7 +15,7 @@
       box sets (`sessid`, `accept-language`); the `X-Context` header on the
       calls; whether the box needs `Cookie` at all.
 - [ ] `Devices get` with the `expression` map answers `{ status: { wifi:
-    [...], eth: [...] } }` on the Livebox 5/6/7 firmware; the `Active`
+  [...], eth: [...] } }` on the Livebox 5/6/7 firmware; the `Active`
       flag timing after a phone leaves.
 - [ ] `NMC.Guest set { Enable }` is enough to start the guest Wi-Fi on a
       Livebox 6/7 (Home Assistant also sets a timer through `NMC.WlanTimer`).
