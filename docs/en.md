@@ -43,9 +43,11 @@ box information every 10 minutes, the DSL line every 5.
   notification with `{{triggerEvent.data.number}}`.
 - **Internet up or down**: for a notification, or a watchdog scene: after
   10 minutes down, run the **reboot** action.
-- The action **devices online** gives `{{online}}`, `{{wifi_online}}` and
-  `{{names}}`; **Wi-Fi on / off** switches the main or guest network (night
-  mode, guests arriving).
+- The action **devices online** gives `online`, `wifi_online` and `names`:
+  the following actions of the scene find them in their variable list
+  (written `{{<step>.<action>.<key>}}`, for instance `{{0.0.online}}` when
+  this action is the first of the scene). **Wi-Fi on / off** switches the
+  main or guest network (night mode, guests arriving).
 
 The presence sensors are also plain Gladys presence sensors: they work
 with the "house empty" and "someone came back" built-in triggers and the

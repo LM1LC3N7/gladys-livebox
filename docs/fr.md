@@ -48,9 +48,12 @@ ligne xDSL toutes les 5.
 - **Internet rétabli ou coupé** : pour une notification, ou une scène de
   surveillance : après 10 minutes de coupure, lancer l'action
   **redémarrer**.
-- L'action **appareils en ligne** donne `{{online}}`, `{{wifi_online}}` et
-  `{{names}}` ; **Wi-Fi on / off** bascule le réseau principal ou invité
-  (mode nuit, arrivée d'invités).
+- L'action **appareils en ligne** donne `online`, `wifi_online` et
+  `names` : les actions suivantes de la scène les trouvent dans leur liste
+  de variables (écrites `{{<étape>.<action>.<clé>}}`, par exemple
+  `{{0.0.online}}` quand cette action est la première de la scène).
+  **Wi-Fi on / off** bascule le réseau principal ou invité (mode nuit,
+  arrivée d'invités).
 
 Les capteurs de présence sont des capteurs de présence Gladys ordinaires :
 ils fonctionnent avec les déclencheurs natifs « maison vide » et
