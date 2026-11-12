@@ -2,7 +2,7 @@
 
 ## Before announcing
 
-- [ ] Test on a real Livebox (4, 5, 6 or 7) with a real Gladys 5.1+: the
+- [ ] Test on a real Livebox (4, 5, 6 or 7) with a real Gladys 5.3+: the
       login, discovery, presence over a day, the Wi-Fi switches, the call
       log, the two widgets. The module was built without the hardware.
 - [ ] Reserve "Orange Livebox" in the forum thread t/10385, then add the
